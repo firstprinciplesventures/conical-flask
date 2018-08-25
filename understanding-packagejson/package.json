@@ -1,0 +1,11 @@
+{
+  "name": "comprehend-packagejson",
+  "version": "1.0.0",
+  "description": "\"The purpose of this simple npm init is to understand why npm creates package.json to manage dependencies\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "houseparty"
+  },
+  "author": "Ram N",
+  "license": "MIT"
+}
