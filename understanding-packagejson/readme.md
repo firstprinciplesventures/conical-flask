@@ -65,5 +65,35 @@ You can start the server by calling node with the script in your command prompt:
 
 <pre>
 node index.js
-Example app listening on port 8000
 </pre>
+
+Global install for Express-Generator npm package
+
+<pre>
+npm install express-generator -g
+</pre>
+
+Once npm install this framework generator globally. you can use it to quickly generate apps
+
+e.g
+<pre>
+express helloworld
+</pre>
+
+this generates all things required for the helloworld app in the optimal folder structure.
+
+inside the helloworld app there would be a package.json as well. when you wanna run the helloworld app, those requirements will apply.
+
+<pre>
+cd helloworld
+npm install
+</pre>
+
+this installs the app dependencies.
+
+<pre>
+DEBUG=helloworld:* npm start
+</pre>
+
+And check localhost:3000 :)
+### That's all for express install and package.json jazz.
